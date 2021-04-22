@@ -22,6 +22,10 @@ p{
     width: 45%;
     float: right;
     }
+.half-width3{
+    width: 40%;
+    float:left;
+}
 img.img1 {
     width: 80%;
     /* margin: auto !important; */
@@ -38,6 +42,7 @@ img.img1 {
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .Hire{
     text-decoration: none;
@@ -47,4 +52,9 @@ section{
     color: white;
     font-weight: 700;
     background-image: linear-gradient(190deg,lightsalmon, tomato);
+}
+.dreambig{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
