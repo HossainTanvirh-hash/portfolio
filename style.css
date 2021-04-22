@@ -1,4 +1,8 @@
-body{font-family: 'Roboto Mono', monospace;}
+body{
+    margin: 0px;
+    font-family: 'Roboto Mono', monospace;
+    
+}
 h1{font-size: 30px;}
 .vinsmoke{
     color: orange;
@@ -6,12 +10,41 @@ h1{font-size: 30px;}
 p{
     float: right;
 }
-.half-width{
-    width: 40%;
+.container{
+    width: 90%;
+    margin: auto;
+}
+.half-width1{
+    width: 50%;
     float: left;
-    margin-left: 7%;
-    padding-left: 2%;
+}
+.half-width2{
+    width: 45%;
+    float: right;
+    }
+img.img1 {
+    width: 80%;
+    /* margin: auto !important; */
+    ]: center !important;
 }
 .half-width img{
     width: 50%;
+}
+.banner1{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    
+    
+}
+section{
+    height: 500px;
+}
+.Hire{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(190deg,lightsalmon, tomato);
 }
